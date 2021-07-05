@@ -1,0 +1,12 @@
+{
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+        "reportDir": "mochawesome-report",
+        "reportFilename": "index",
+        "reportPageTitle": "Report Cypress",
+        "quiet": true,
+        "overwrite": true,
+        "html": true,
+        "json": false
+    }
+}
