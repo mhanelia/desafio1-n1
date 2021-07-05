@@ -34,8 +34,14 @@ jobs:
       # Instalando as dependencias
       - run: npm install 
       
-      # Executar os testes e gerar o relatorio
+      # Executar os testes 
       - run: npm run cy:run
+
+      # Realizar o merge do resultado das specs
+      - run: npm run report:merge
+
+      # Gera o HTML do report
+      - run: npm run report:mocha
 
       # Publicar o relatório HTML 
       - name: Deploy to GitHub Pages
