@@ -58,3 +58,5 @@ e, logo após:
 npm run report:merge
 ````
 Prontinho! Agora o relatório está gerado :) 
+
+[![passed](https://cdn.kapwing.com/final_60e486edb42495003df296a4_313118.gif)](https://cdn.kapwing.com/final_60e486edb42495003df296a4_313118.gif)
