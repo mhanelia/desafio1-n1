@@ -9,8 +9,6 @@
     "report:merge": "mochawesome-merge > index.json",
     "report:mocha": "marge index.json",
     "report:clean": "rimraf mochawesome-report index.json"
-
-    
   },
   "repository": {
     "type": "git",
