@@ -7,8 +7,11 @@ Consiste em validar o cadastro no http://automationpractice.com e publicar no Gi
 
 ## Ferramentas utilizadas:
 [Node.js](https://nodejs.org/)
+
 [Framework: Cypress](https://www.cypress.io/)
+
 [lib: chance](https://chancejs.com)
+
 [report: mochawesome](https://github.com/adamgruber/mochawesome)
 
 
